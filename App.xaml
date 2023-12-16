@@ -1,0 +1,19 @@
+﻿<Application
+    x:Class="Homework_WordEditor.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="MainWindow.xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml" />
+
+                <!-- Here the other ResourceDictionary in your App.xaml -->
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Here the other ressources in your App.xaml -->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
